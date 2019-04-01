@@ -2,7 +2,7 @@ G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.2-5-10.14)*
 G04 #@! TF.CreationDate,2019-03-15T18:51:59-07:00*
 G04 #@! TF.ProjectId,Pre-amp,5072652d-616d-4702-9e6b-696361645f70,rev?*
 G04 #@! TF.SameCoordinates,Original*
-G04 #@! TF.FileFunction,Paste,Bot*
+G04 #@! TF.FileFunction,Glue,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
