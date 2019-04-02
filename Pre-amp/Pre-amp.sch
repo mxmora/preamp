@@ -447,7 +447,7 @@ U 1 1 5C7FE88F
 P 8000 4600
 F 0 "RV2" V 7795 4600 50  0000 C CNN
 F 1 "25k-L" V 7886 4600 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 8000 4600 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK163_Single_Vertical" H 8000 4600 50  0001 C CNN
 F 3 "~" H 8000 4600 50  0001 C CNN
 	1    8000 4600
 	0    1    1    0   
@@ -458,7 +458,7 @@ U 1 1 5C7FEA04
 P 9750 3650
 F 0 "RV3" V 9545 3650 50  0000 C CNN
 F 1 "25k-A" V 9636 3650 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 9750 3650 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK163_Single_Vertical" H 9750 3650 50  0001 C CNN
 F 3 "~" H 9750 3650 50  0001 C CNN
 	1    9750 3650
 	0    1    1    0   
@@ -469,7 +469,7 @@ U 1 1 5C7FEB4B
 P 11350 4650
 F 0 "RV4" V 11145 4650 50  0000 C CNN
 F 1 "25k-L" V 11236 4650 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 11350 4650 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK163_Single_Vertical" H 11350 4650 50  0001 C CNN
 F 3 "~" H 11350 4650 50  0001 C CNN
 	1    11350 4650
 	0    1    1    0   
@@ -480,7 +480,7 @@ U 1 1 5C7FEC1F
 P 13150 4650
 F 0 "RV5" V 12945 4650 50  0000 C CNN
 F 1 "25k-L" V 13036 4650 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 13150 4650 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK163_Single_Vertical" H 13150 4650 50  0001 C CNN
 F 3 "~" H 13150 4650 50  0001 C CNN
 	1    13150 4650
 	0    1    1    0   
@@ -1680,7 +1680,7 @@ U 1 1 5CAB8056
 P 6700 5400
 F 0 "RV1" V 6495 5400 50  0000 C CNN
 F 1 "25k-L" V 6586 5400 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal" H 6700 5400 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK163_Single_Vertical" H 6700 5400 50  0001 C CNN
 F 3 "~" H 6700 5400 50  0001 C CNN
 	1    6700 5400
 	0    1    1    0   

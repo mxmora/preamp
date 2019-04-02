@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:Pre-amp-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "preamp"
-Date "2019-03-12"
-Rev "1.0"
+Date "2019-04-01"
+Rev "1.1.1"
 Comp "MXM Designs"
 Comment1 ""
 Comment2 ""
@@ -1236,12 +1236,12 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5C81F472
-P 16350 600
-F 0 "H2" H 16450 646 50  0000 L CNN
-F 1 "MountingHole" H 16450 555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 16350 600 50  0001 C CNN
-F 3 "~" H 16350 600 50  0001 C CNN
-	1    16350 600 
+P 650 1600
+F 0 "H2" H 750 1646 50  0000 L CNN
+F 1 "MountingHole" H 750 1555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 650 1600 50  0001 C CNN
+F 3 "~" H 650 1600 50  0001 C CNN
+	1    650  1600
 	1    0    0    -1  
 $EndComp
 $Comp
