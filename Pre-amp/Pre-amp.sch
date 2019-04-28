@@ -6,8 +6,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "preamp"
-Date "2019-04-01"
-Rev "1.1.1"
+Date "2019-04-27"
+Rev "1.1.4"
 Comp "MXM Designs"
 Comment1 ""
 Comment2 ""
@@ -65,7 +65,7 @@ P 9350 5400
 F 0 "R22" V 9143 5400 50  0000 C CNN
 F 1 "220K" V 9234 5400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9280 5400 50  0001 C CNN
-F 3 "~" H 9350 5400 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 9350 5400 50  0001 C CNN
 	1    9350 5400
 	0    1    1    0   
 $EndComp
@@ -76,7 +76,7 @@ P 10150 5400
 F 0 "R24" V 9943 5400 50  0000 C CNN
 F 1 "220K" V 10034 5400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10080 5400 50  0001 C CNN
-F 3 "~" H 10150 5400 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 10150 5400 50  0001 C CNN
 	1    10150 5400
 	0    1    1    0   
 $EndComp
@@ -87,7 +87,7 @@ P 10900 5400
 F 0 "R27" V 10693 5400 50  0000 C CNN
 F 1 "220K" V 10784 5400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10830 5400 50  0001 C CNN
-F 3 "~" H 10900 5400 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 10900 5400 50  0001 C CNN
 	1    10900 5400
 	0    1    1    0   
 $EndComp
@@ -98,7 +98,7 @@ P 11750 5400
 F 0 "R28" V 11543 5400 50  0000 C CNN
 F 1 "220K" V 11634 5400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 11680 5400 50  0001 C CNN
-F 3 "~" H 11750 5400 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 11750 5400 50  0001 C CNN
 	1    11750 5400
 	0    1    1    0   
 $EndComp
@@ -109,7 +109,7 @@ P 12750 5400
 F 0 "R33" V 12543 5400 50  0000 C CNN
 F 1 "220K" V 12634 5400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 12680 5400 50  0001 C CNN
-F 3 "~" H 12750 5400 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 12750 5400 50  0001 C CNN
 	1    12750 5400
 	0    1    1    0   
 $EndComp
@@ -120,7 +120,7 @@ P 13650 5400
 F 0 "R36" V 13443 5400 50  0000 C CNN
 F 1 "220K" V 13534 5400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 13580 5400 50  0001 C CNN
-F 3 "~" H 13650 5400 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 13650 5400 50  0001 C CNN
 	1    13650 5400
 	0    1    1    0   
 $EndComp
@@ -435,7 +435,7 @@ L Device:C C14
 U 1 1 5C7FE5F7
 P 13150 5150
 F 0 "C14" H 13265 5196 50  0000 L CNN
-F 1 ".47" H 13265 5105 50  0000 L CNN
+F 1 ".047" H 13265 5105 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 13188 5000 50  0001 C CNN
 F 3 "~" H 13150 5150 50  0001 C CNN
 	1    13150 5150
@@ -889,7 +889,7 @@ F 1 "1N759" V 13755 7271 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13800 7350 50  0001 C CNN
 F 3 "~" H 13800 7350 50  0001 C CNN
 	1    13800 7350
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Zener D4
@@ -1102,9 +1102,6 @@ Wire Wire Line
 Wire Wire Line
 	13000 7450 13000 7300
 Connection ~ 12350 7850
-NoConn ~ 11400 7000
-NoConn ~ 11400 7100
-NoConn ~ 11400 7200
 $Comp
 L Connector:Barrel_Jack_Switch J1
 U 1 1 5C7F7EFB
@@ -1260,7 +1257,7 @@ L Device:R R2
 U 1 1 5C89B323
 P 2050 5000
 F 0 "R2" V 1843 5000 50  0000 C CNN
-F 1 "23k" V 1934 5000 50  0000 C CNN
+F 1 "22k" V 1934 5000 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1980 5000 50  0001 C CNN
 F 3 "~" H 2050 5000 50  0001 C CNN
 	1    2050 5000
@@ -1273,7 +1270,7 @@ P 4450 7050
 F 0 "R6" H 4380 7004 50  0000 R CNN
 F 1 "3.3k" H 4380 7095 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4380 7050 50  0001 C CNN
-F 3 "~" H 4450 7050 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 4450 7050 50  0001 C CNN
 	1    4450 7050
 	-1   0    0    1   
 $EndComp
@@ -1284,7 +1281,10 @@ P 3100 6200
 F 0 "R3" H 3030 6154 50  0000 R CNN
 F 1 "220k" H 3030 6245 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3030 6200 50  0001 C CNN
-F 3 "~" H 3100 6200 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 3100 6200 50  0001 C CNN
+F 4 "metal film" H 3100 6200 50  0001 C CNN "type"
+F 5 "1%" H 3100 6200 50  0001 C CNN "tolerance"
+F 6 "Royal Ohm" H 3100 6200 50  0001 C CNN "Manufacturer"
 	1    3100 6200
 	-1   0    0    1   
 $EndComp
@@ -1330,7 +1330,7 @@ F 1 "1N759" V 2255 6471 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2300 6550 50  0001 C CNN
 F 3 "~" H 2300 6550 50  0001 C CNN
 	1    2300 6550
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C2
@@ -1350,7 +1350,7 @@ P 3900 6450
 F 0 "R5" V 4000 6450 50  0000 C CNN
 F 1 "33k" V 3800 6450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 6450 50  0001 C CNN
-F 3 "~" H 3900 6450 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 3900 6450 50  0001 C CNN
 	1    3900 6450
 	0    -1   -1   0   
 $EndComp
@@ -1374,7 +1374,7 @@ P 3400 6800
 F 0 "R4" H 3330 6754 50  0000 R CNN
 F 1 "3.3k" H 3330 6845 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3330 6800 50  0001 C CNN
-F 3 "~" H 3400 6800 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 3400 6800 50  0001 C CNN
 	1    3400 6800
 	-1   0    0    1   
 $EndComp
@@ -1472,7 +1472,7 @@ P 4450 7450
 F 0 "R7" H 4380 7404 50  0000 R CNN
 F 1 "22k" H 4380 7495 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4380 7450 50  0001 C CNN
-F 3 "~" H 4450 7450 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 4450 7450 50  0001 C CNN
 	1    4450 7450
 	-1   0    0    1   
 $EndComp
@@ -1532,7 +1532,7 @@ P 4950 7550
 F 0 "R8" H 4880 7504 50  0000 R CNN
 F 1 "12k" H 4880 7595 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4880 7550 50  0001 C CNN
-F 3 "~" H 4950 7550 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 4950 7550 50  0001 C CNN
 	1    4950 7550
 	-1   0    0    1   
 $EndComp
@@ -1548,7 +1548,7 @@ P 4950 7950
 F 0 "R9" H 4880 7904 50  0000 R CNN
 F 1 "1k" H 4880 7995 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4880 7950 50  0001 C CNN
-F 3 "~" H 4950 7950 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 4950 7950 50  0001 C CNN
 	1    4950 7950
 	-1   0    0    1   
 $EndComp
@@ -1579,7 +1579,7 @@ $EndComp
 Wire Wire Line
 	4950 8650 4950 8500
 Wire Wire Line
-	4950 7700 4950 7800
+	4950 7700 4950 7750
 $Comp
 L Device:R R10
 U 1 1 5CA3CB10
@@ -1587,7 +1587,7 @@ P 5550 7550
 F 0 "R10" H 5480 7504 50  0000 R CNN
 F 1 "22k" H 5480 7595 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5480 7550 50  0001 C CNN
-F 3 "~" H 5550 7550 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 5550 7550 50  0001 C CNN
 	1    5550 7550
 	-1   0    0    1   
 $EndComp
@@ -1600,7 +1600,7 @@ P 5550 7950
 F 0 "R11" H 5480 7904 50  0000 R CNN
 F 1 "22k" H 5480 7995 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5480 7950 50  0001 C CNN
-F 3 "~" H 5550 7950 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 5550 7950 50  0001 C CNN
 	1    5550 7950
 	-1   0    0    1   
 $EndComp
@@ -1616,7 +1616,7 @@ F 3 "" H 5550 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 7700 5550 7800
+	5550 7700 5550 7750
 Wire Wire Line
 	5550 8100 5550 8650
 Wire Wire Line
@@ -1633,7 +1633,7 @@ P 5850 5750
 F 0 "R13" V 5643 5750 50  0000 C CNN
 F 1 "82k" V 5734 5750 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 5750 50  0001 C CNN
-F 3 "~" H 5850 5750 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 5850 5750 50  0001 C CNN
 	1    5850 5750
 	0    1    1    0   
 $EndComp
@@ -1650,7 +1650,7 @@ P 5850 5400
 F 0 "R12" V 5643 5400 50  0000 C CNN
 F 1 "1k" V 5734 5400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 5400 50  0001 C CNN
-F 3 "~" H 5850 5400 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 5850 5400 50  0001 C CNN
 	1    5850 5400
 	0    1    1    0   
 $EndComp
@@ -1661,17 +1661,6 @@ Wire Wire Line
 Connection ~ 5650 5750
 Wire Wire Line
 	5650 5750 5100 5750
-$Comp
-L Device:C C6
-U 1 1 5CAA9690
-P 6250 5400
-F 0 "C6" V 6100 5400 50  0000 C CNN
-F 1 "10" V 6400 5400 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 6288 5250 50  0001 C CNN
-F 3 "~" H 6250 5400 50  0001 C CNN
-	1    6250 5400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6000 5400 6100 5400
 $Comp
@@ -1694,7 +1683,7 @@ P 6350 5850
 F 0 "R14" V 6143 5850 50  0000 C CNN
 F 1 "3.3k" V 6234 5850 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6280 5850 50  0001 C CNN
-F 3 "~" H 6350 5850 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/files/royalohmprecisionmetalmf.pdf" H 6350 5850 50  0001 C CNN
 	1    6350 5850
 	0    1    1    0   
 $EndComp
@@ -1769,4 +1758,44 @@ F 3 "~" H 600 1350 50  0001 C CNN
 	1    600  1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5CDA41BF
+P 10500 7100
+F 0 "#PWR0101" H 10500 6850 50  0001 C CNN
+F 1 "GND" H 10505 6927 50  0000 C CNN
+F 2 "" H 10500 7100 50  0001 C CNN
+F 3 "" H 10500 7100 50  0001 C CNN
+	1    10500 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 7000 10500 7000
+Wire Wire Line
+	10500 7000 10500 7100
+Wire Wire Line
+	11250 7200 11250 7100
+Wire Wire Line
+	11250 7100 11400 7100
+Wire Wire Line
+	11400 7200 11250 7200
+$Comp
+L Device:CP C6
+U 1 1 5CE51529
+P 6250 5400
+F 0 "C6" V 6505 5400 50  0000 C CNN
+F 1 "10uF" V 6414 5400 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 6288 5250 50  0001 C CNN
+F 3 "~" H 6250 5400 50  0001 C CNN
+	1    6250 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 7750 4950 7750
+Connection ~ 5550 7750
+Wire Wire Line
+	5550 7750 5550 7800
+Connection ~ 4950 7750
+Wire Wire Line
+	4950 7750 4950 7800
 $EndSCHEMATC
