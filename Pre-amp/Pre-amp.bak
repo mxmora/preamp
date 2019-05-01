@@ -1735,7 +1735,7 @@ U 1 1 5CB13365
 P 4850 4900
 F 0 "K1" V 5617 4900 50  0000 C CNN
 F 1 "G6H-2" V 5526 4900 50  0000 C CNN
-F 2 "" H 5300 4800 50  0001 C CNN
+F 2 "Relay_THT:Relay_DPDT_Omron_G6H-2" H 5300 4800 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/C300/G6H%23OMR.pdf" H 5500 5050 50  0001 C CNN
 	1    4850 4900
 	0    1    -1   0   
