@@ -1735,7 +1735,7 @@ U 1 1 5CB13365
 P 4850 4900
 F 0 "K1" V 5617 4900 50  0000 C CNN
 F 1 "G6H-2" V 5526 4900 50  0000 C CNN
-F 2 "" H 5300 4800 50  0001 C CNN
+F 2 "Relay_THT:Relay_DPDT_Omron_G6H-2" H 5300 4800 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/C300/G6H%23OMR.pdf" H 5500 5050 50  0001 C CNN
 	1    4850 4900
 	0    1    -1   0   
@@ -1928,7 +1928,7 @@ U 1 1 5CDAD3D8
 P 3300 7200
 F 0 "R42" H 3428 7246 50  0000 L CNN
 F 1 "25k" H 3428 7155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3230 7200 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3386F_Vertical" V 3230 7200 50  0001 C CNN
 F 3 "~" H 3300 7200 50  0001 C CNN
 	1    3300 7200
 	1    0    0    -1  
@@ -2206,7 +2206,7 @@ U 1 1 5CFEF37E
 P 6250 8450
 F 0 "R51" H 6378 8496 50  0000 L CNN
 F 1 "25k" H 6378 8405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6180 8450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3386F_Vertical" V 6180 8450 50  0001 C CNN
 F 3 "~" H 6250 8450 50  0001 C CNN
 	1    6250 8450
 	1    0    0    -1  
