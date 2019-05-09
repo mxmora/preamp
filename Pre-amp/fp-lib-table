@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MAX4700CPE)(type Legacy)(uri /Users/mmora/Dev/preamp/MAX4700CPE/MAX4700CPE.mod)(options "")(descr ""))
+)
