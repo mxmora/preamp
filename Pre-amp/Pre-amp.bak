@@ -2945,17 +2945,6 @@ Wire Wire Line
 	5100 500  5100 2300
 Wire Wire Line
 	5100 500  7750 500 
-$Comp
-L Analog_Switch:DG419LDJ U6
-U 2 1 5EBF0578
-P 5650 3700
-F 0 "U6" H 5650 3942 50  0000 C CNN
-F 1 "DG419LDJ" H 5650 3851 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 5650 3400 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf" H 5650 3500 50  0001 C CNN
-	2    5650 3700
-	0    1    1    0   
-$EndComp
 Text GLabel 6850 700  0    50   Input ~ 0
 CLEAN-IN
 Wire Wire Line
@@ -3229,5 +3218,16 @@ F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 5650 2600 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf" H 5650 2700 50  0001 C CNN
 	1    5650 2900
 	1    0    0    -1  
+$EndComp
+$Comp
+L Analog_Switch:DG419LDJ U6
+U 2 1 5EBF0578
+P 5650 3700
+F 0 "U6" V 5450 3700 50  0000 C CNN
+F 1 "DG419LDJ" V 6000 3700 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 5650 3400 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf" H 5650 3500 50  0001 C CNN
+	2    5650 3700
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

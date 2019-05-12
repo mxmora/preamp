@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/mmora/Dev/preamp/Pre-amp/Pre-amp.sch)
-    (date "Thursday, May 09, 2019 at 08:48:33 AM")
+    (date "Saturday, May 11, 2019 at 08:01:28 PM")
     (tool "Eeschema (5.1.2-1)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -957,7 +957,7 @@
       (tstamp 5D143423))
     (comp (ref D10)
       (value LED)
-      (footprint LEDs:LED_D3.0mm)
+      (footprint Connector_PinHeader_2.00mm:PinHeader_2x01_P2.00mm_Vertical)
       (datasheet ~)
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names /) (tstamps /))
