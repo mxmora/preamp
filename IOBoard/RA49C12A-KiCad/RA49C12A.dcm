@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RA49C12A
+D 2 way r/a PCB mount jack socket,1/4in
+K
+F http://www.switchcraft.com/Drawings/ra49c_Series_cd.pdf
+$ENDCMP
+#
+#End Doc Library
